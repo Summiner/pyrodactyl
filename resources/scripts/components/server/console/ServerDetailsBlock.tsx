@@ -145,7 +145,6 @@ const ServerDetailsBlock = ({ className }: { className?: string }) => {
                     <Limit limit={textLimits.disk}>{bytesToString(stats.disk)}</Limit>
                 </StatBlock>
             </div>
-            a
             <div
                 className='transform-gpu skeleton-anim-2'
                 style={{
